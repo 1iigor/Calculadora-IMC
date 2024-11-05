@@ -34,5 +34,3 @@ form.addEventListener('submit', function(event) {
     value.textContent = bmi.replace('.', ',');
     document.getElementById('description').textContent = description;
 });
-
-// Mudar cor do peso ideal para verde, mudar mensagem para obesidade grau 1 2 3, e valores de entre pesos
